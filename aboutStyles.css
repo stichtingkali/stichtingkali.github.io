@@ -1,0 +1,134 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 0.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7vw;
+}
+
+.aboutTitle {
+    font-size: 1.2rem;
+}
+
+.aboutText {
+    width: 50%;
+    line-height: 1.65;
+    text-align: justify;
+}
+
+/* ----------------- Players Section ----------------- */
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7vw;
+}
+
+.playerPhoto {
+    height: 35vw;
+    width: 35vw;
+    overflow: hidden;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.playerScroller {
+    display: flex;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.playerScroller img{
+    flex-shrink: 0;
+    height: 35vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+.ensemblePlayers {
+    line-height: 2;
+    width: 50%;
+}
+
+/* ----------------- Kali Composers Section ----------------- */
+
+.composers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 7vw;
+}
+
+.composerPhoto {
+    height: 35vw;
+    width: 35vw;
+    overflow: hidden;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    margin-left: 10vw;
+}
+
+.composerScroller {
+    display: flex;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.composerScroller img{
+    flex-shrink: 0;
+    height: 35vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+.composersAbout {
+    line-height: 2;
+    width: 40vw;
+}
+
+/* ----------------- Upcoming Composers Section ----------------- */
+
+.upcoming {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 7vw;
+}
+
+.upcomingPhoto {
+    height: 35vw;
+    width: 35vw;
+    overflow: hidden;
+    border: 0.5px solid rgba(255, 255, 255, 1);
+    position: relative;
+    margin-left: 10vw;
+}
+
+.upcomingScroller {
+    display: flex;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.upcomingScroller img{
+    flex-shrink: 0;
+    height: 35vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+.upcomingAbout {
+    line-height: 2;
+    width: 40vw;
+}
