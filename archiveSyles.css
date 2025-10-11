@@ -1,0 +1,52 @@
+.allProjects {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.project {
+
+    height: 250px;
+    width: 250px;
+    border: 1px solid white; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+
+    color: rgb(182, 170, 93);
+    opacity: 0.8;
+
+}
+
+.project:hover {
+    animation: pulse_photo 0.8s infinite ease-in-out;
+}
+
+@keyframes pulse_photo {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Individual Photos */
+
+.project.square3 {
+
+    background-image: url("/resources/cover_pictures/robinson-1160x680.jpg");
+    background-position: 48%;
+    background-size: cover;
+}
